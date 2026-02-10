@@ -15,7 +15,7 @@ export const categories = [
 ];
 
 export const tasks = [
-  { title: "Finish Project Report", priority: 5 },
+  { title: "Finish SBA", priority: 5 },
   { title: "Buy Milk", priority: 1 },
   { title: "Morning Run", priority: 3 },
   { title: "Study MongoDB", priority: 4 },
@@ -23,6 +23,6 @@ export const tasks = [
   { title: "Call Mom", priority: 3 },
   { title: "Push code to GitHub", priority: 5 },
   { title: "Go to Dentist", priority: 4 },
-  { title: "Yoga Session", priority: 2 },
+  { title: "Do a Leetcode problem", priority: 2 },
   { title: "Read 10 pages", priority: 1 }
 ];

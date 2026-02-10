@@ -4,6 +4,8 @@ import 'dotenv/config'
 import connectDB from './db/conn.js';
 import { logReq, globalErr } from './middleware/middlewares.js';
 import userRoutes from './routes/userRoutes.js'
+import categoryRoutes from './routes/categoryRoutes.js'
+import taskRoutes from './routes/taskRoutes.js'
 
 // Setups
 const app = express();
@@ -18,6 +20,8 @@ app.use(logReq);
 
 // Routes
 app.use("/api/users", userRoutes);
+app.use("/api/categories", categoryRoutes);
+app.use("/api/task", taskRoutes);
 app.get("/", (req, res) => {
   res.send("Task Tracker API is running...");
 });
