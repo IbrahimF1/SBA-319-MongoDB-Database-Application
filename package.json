@@ -1,0 +1,26 @@
+{
+  "name": "sba",
+  "version": "1.0.0",
+  "description": "This assessment measures your understanding of MongoDB and your capability to implement its features in a practical manner. You have creative freedom in the topic, material, and purpose of the web application you will be developing, so have fun with it! However, remember to plan the scope of your project to the timeline you have been given.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IbrahimF1/SBA-319-MongoDB-Database-Application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/IbrahimF1/SBA-319-MongoDB-Database-Application/issues"
+  },
+  "homepage": "https://github.com/IbrahimF1/SBA-319-MongoDB-Database-Application#readme",
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.0"
+  }
+}
